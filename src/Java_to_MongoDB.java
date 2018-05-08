@@ -51,7 +51,7 @@ public class Java_to_MongoDB extends Thread {
 		String[] dados1 = dados[0].split(":");
 		String[] dados2 = dados[1].split(":");
 		String[] dados3 = dados[2].split(":");
-		String[] dados4 = dados[3].split(":");
+		String[] dados4 = dados[3].split(":",2);  //É com range devido a haver vários : no time
 		
 		//Cria o BasicDBObject que vai ser inserido na base de dados
 		BasicDBObject hammer = new BasicDBObject(dados1[0],dados1[1])
