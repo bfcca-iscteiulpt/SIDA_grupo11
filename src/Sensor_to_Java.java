@@ -45,7 +45,7 @@ public class Sensor_to_Java extends Thread{
 	    	        	
 				public void messageArrived(String topic, MqttMessage message) throws Exception {
 					if(message.toString().startsWith("{")){
-						System.out.println(message.toString());
+						System.out.println("Message received: " + message.toString());
 	    	
 						new Java_to_MongoDB(message.toString()).run();
 
