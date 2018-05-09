@@ -1,4 +1,4 @@
-
+package MongoDB;
 
 import org.bson.Document;
 
@@ -25,9 +25,9 @@ public class Java_to_MongoDB extends Thread {
 		
 		//Certificar que as aspas são as corretas
 		String mensagem = message.toString();
-		mensagem = mensagem.replace('“', ' ');
-		mensagem = mensagem.replace('”', ' ');
-		mensagem = mensagem.replaceAll(" ", "");
+		mensagem = mensagem.replace('“', '"');
+		mensagem = mensagem.replace('”', '"');
+//		mensagem = mensagem.replaceAll(" ", "");
 		Document doc = Document.parse(mensagem);
 		
 		col.insertOne(doc);
