@@ -30,6 +30,7 @@ public class Sensor_to_Java extends Thread{
 			conn.setPassword(accessKey);
 			conn.setUserName(clientID);
 			client.connect(conn);
+			client.subscribe("sid_lab_2018_g11");
 			
 			if(client.isConnected()) {
 				System.out.println("Connected..");
@@ -56,7 +57,6 @@ public class Sensor_to_Java extends Thread{
 				}
 			});
 
-			client.subscribe("sid_lab_2018");
 	    	}        
 	    		
 		}catch(Exception x) {
