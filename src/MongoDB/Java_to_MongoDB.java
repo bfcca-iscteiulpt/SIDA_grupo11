@@ -25,8 +25,8 @@ public class Java_to_MongoDB extends Thread {
 		
 		//Certificar que as aspas sÃ£o as corretas
 		String mensagem = message.toString();
-		mensagem = mensagem.replace('â€œ', '"');
-		mensagem = mensagem.replace('â€', '"');
+		mensagem = mensagem.replace('“', '"');
+		mensagem = mensagem.replace('”', '"');
 //		mensagem = mensagem.replaceAll(" ", "");
 		Document doc = Document.parse(mensagem);
 		
