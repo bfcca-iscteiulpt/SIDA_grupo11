@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<conf>
+	<sensor>
+		<topic>sid_lab_2018_grupo11</topic>
+		<qos>0</qos>
+		<broker>tcp://iot.eclipse.org:1883</broker>
+	</sensor>
+	<mongodb>
+		<ip_server>localhost</ip_server>
+		<port>27017</port>
+		<database>db_grupo11</database>
+		<user>MigrationAgent</user>
+		<password>mongotosybase</password>
+	</mongodb>
+</conf>

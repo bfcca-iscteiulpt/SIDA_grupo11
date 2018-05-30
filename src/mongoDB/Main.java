@@ -1,4 +1,4 @@
-package MongoDB;
+package mongoDB;
 import java.io.IOException;
 
 public class Main {

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<conf>
+	<sybase>
+		<ip_server>jdbc:sqlanywhere:Tds:localhost:</ip_server>
+		<port>2638</port>
+		<database>bd_teste</database>
+		<user>m</user>
+		<password>m</password>
+	</sybase>
+	<mongodb>
+		<ip_server>localhost</ip_server>
+		<port>27017</port>
+		<database>db_grupo11</database>
+		<user>MigrationAgent</user>
+		<password>mongotosybase</password>
+	</mongodb>
+	<periodicity>10</periodicity>
+	<diference>2.5</diference>
+</conf>
