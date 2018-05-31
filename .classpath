@@ -6,10 +6,9 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/bruno/Desktop/gson-2.8.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/bruno/Desktop/jackson-all-1.9.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/bruno/Desktop/mongo-java-driver-3.4.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/bruno/Desktop/org.eclipse.paho.client.mqttv3-1.1.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/bruno/Desktop/sajdbc4.jar"/>
+	<classpathentry kind="lib" path="jackson-all-1.9.0.jar"/>
+	<classpathentry kind="lib" path="mongo-java-driver-3.4.3.jar"/>
+	<classpathentry kind="lib" path="org.eclipse.paho.client.mqttv3-1.1.0.jar"/>
+	<classpathentry kind="lib" path="sajdbc4.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
